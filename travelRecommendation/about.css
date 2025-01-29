@@ -1,0 +1,67 @@
+@import url('style.css');
+
+.navbar {
+  justify-content: start;
+  gap: 6rem;
+}
+
+.container {
+  padding: 4rem 0;
+}
+
+.hero-heading {
+  color: var(--light-color);
+  margin-left: 8rem;
+}
+
+.about {
+  color: var(--light-color);
+  margin: 2rem 8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.team-heading {
+  color: var(--light-color);
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-left: 8rem;
+}
+
+.team-image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-color);
+  width: 20%;
+  gap: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.position {
+  background-color: var(--primary-light-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 8rem;
+}

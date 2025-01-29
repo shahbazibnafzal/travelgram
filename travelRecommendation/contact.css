@@ -1,0 +1,41 @@
+@import url('style.css');
+
+.navbar {
+  justify-content: start;
+  gap: 6rem;
+}
+
+.hero-heading {
+  color: var(--light-color);
+  margin: 3rem 8rem;
+}
+
+.contact-form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 50%;
+  margin: 2rem 8rem;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  color: var(--light-color);
+}
+
+.form-control {
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 5px;
+  margin: 2px;
+  font-family: var(--font-family);
+}
+
+.primary-button {
+  padding: 0.5rem;
+}
